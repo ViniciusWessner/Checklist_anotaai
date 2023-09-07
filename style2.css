@@ -17,10 +17,10 @@ body {
   justify-content: center;
   margin: 0;
   min-height: 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    to top,#003e63,#011d2e
+    to top,#003e63,#0098FC
   );
   
 }
@@ -75,8 +75,12 @@ body {
 }
 
 .gifquestao{
-
+    width: 800px;
+    height: 400px;
     margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    padding: 30px;
 }
 .img:hover{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.365);
@@ -232,7 +236,7 @@ body {
 }
 @media screen and (min-width:768px) and (max-width:992px){
     .card{
-        width: 65% !important;
+        width: 90% !important;
     }
     .img{
         width: 3rem;
@@ -240,7 +244,7 @@ body {
 }
 @media screen and (min-width:992px) and (max-width:1200px){
     .card{
-        width: 45% !important;
+        width: 90% !important;
     }
     .img{
         width: 3rem;
@@ -248,7 +252,7 @@ body {
 }
 @media screen and (min-width:1200px){
     .card{
-        width: 40% !important;
+        width: 90% !important;
     }
     .img{
         width: 3rem;

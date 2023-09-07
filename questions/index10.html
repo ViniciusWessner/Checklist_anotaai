@@ -8,6 +8,7 @@
     <script src="https://use.fontawesome.com/8dd48a58d0.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/style2.css">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
@@ -16,8 +17,20 @@
         <div class="card p-5">
                   
             <div class="items">
-                <h2 id="title" class="text-center">Question #9:</h2>
-                <h5 class="qn mb-4">Which is the Largest Building in the World ?</h5>
+                <h2 id="title" class="text-center">Executar comandos via cmd para redefinição de rede</h2>
+                <h5 class="qn mb-4">
+                    netsh winsock reset catalog <br><br>
+                    netsh int ipv4 reset reset.log <br><br>
+                    ipconfig /flushdns <br><br>
+                    ipconfig /renew <br><br>
+                    netsh winsock reset <br><br>
+                    netsh int tcp set global autotuninglevel=normal <br><br>
+                    netsh interface tcp set heuristics disabled <br><br>
+                    netsh int tcp set supplemental internet congestionprovider=ctcp <br><br>
+                    netsh int tcp set global dca=enabled <br><br>
+                    netsh int tcp set global netdma=enabled<br><br>
+                    netsh int tcp set global ecncapability=enabled <br><br>
+                </h5>
                 <form action="/questions/index11.html">
                     <div class="buttons">
                         <button type="submit" onclick="return myFunction(this.id);" class="btn" id="a">Sim</button>
