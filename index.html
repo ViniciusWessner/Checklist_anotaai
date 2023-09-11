@@ -12,37 +12,21 @@
 </head>
 <body>
     <div class="container">
-        
 
         <div class="card p-5">
                   
             <div class="items">
-                <h2 id="title" class="text-center">Você reiniciou o programa?</h2>
-                <h5 class="qn mb-4">Acessando o computador do cliente diretamente no sistema anota ai, vá até canto superior esquerdo aonde está escrito "anota ai desktop" > clieque e após clique em reiniciar</h5>
-                <img src="/assets/giphy.gif" alt="" srcset="" class="gifquestao">
-                <form action="questions/index3.html">
+                
+                <h2 id="title" class="text-center">Escolha abaixo a trilha que deseja acessar</h2>
+                <br>
                     <div class="buttons">
-                        <button type="submit" onclick="return myFunction(this.id);" class="btn" id="a">Sim</button>
-                        <button type="submit" onclick="return myFunction(this.id);" class="btn" id="b">Não</button>
+                        <a href="/questions/index2.html"><button  class="btn" >Aplicativo Desktop</button></a>
+                        <a href="/mobilequestions/index1.html"><button  class="btn">Aplicativo Celular</button></a>
                     </div>
-                </form>
             </div>
         </div>
 
       </div>
 
-      <script>
-        function myFunction(clickedId){
-            var element = document.getElementById(clickedId);
-            if (clickedId == "a"){
-                element.classList.add("right");
-                return true;
-            }
-            else{
-                element.classList.add("wrong");
-                return false;
-            }
-        }
-      </script>
 </body>
 </html>

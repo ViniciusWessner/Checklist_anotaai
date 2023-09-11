@@ -38,11 +38,19 @@ body {
   
 }
 
+.buttons a{
+    text-decoration: none;
+}
+
 .or{
     font-size: 1.1rem;
     color: #a3a3a3;
     letter-spacing: .5px;
     font-weight: bold;
+}
+
+.buttons{
+    text-decoration: none;
 }
 
 .items {
@@ -74,6 +82,17 @@ body {
     margin: 3px;
 }
 
+
+#logovoltar {
+    
+    position: absolute; 
+	left: 50px; /* posiciona a 90px para a esquerda */ 
+	top: 50px; /* posiciona a 70px para baixo */
+    width: 30px;
+    height: 30px;
+
+}
+
 .gifquestao{
     width: 800px;
     height: 400px;
@@ -101,6 +120,8 @@ body {
     outline: none;
     border: none;
 }
+
+
 .btn:hover{
     background:linear-gradient(90deg,#96d0c6,#ceede7) ;
 }
