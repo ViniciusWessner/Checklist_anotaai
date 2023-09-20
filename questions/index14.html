@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +7,18 @@
     <title>Check-List Robo</title>
     <script src="https://use.fontawesome.com/8dd48a58d0.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style2.css">
-    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style2.css">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
-        
-
         <div class="card p-5">
-                  
             <div class="items">
-                <h2 id="title" class="text-center">Verificar número do cliente no root</h2>
-                <a href="/questions/index6.html" id="logovoltar"><img src="../assets/voltar.png" alt="voltarpagina" width="30px" height="30px"></a>
-                <h5 class="qn mb-4">No root do estabelecimento acesse a aba "OUTRAS CONFIGURAÇÕES" e verifique se no campo "Whatsapp do Estabelecimento" o numero do cliente está correto com o número que o mesmo possui conectado com o programa anota ai</h5>
-                <img src="../assets/sem-imagem.png"" alt="" srcset="" class="gifquestao">
-                <form action="/questions/index8.html">
+                <h2 id="title" class="text-center">Restrições de privilégio</h2>
+                <a href="index13.html" id="logovoltar"><img src="../assets/voltar.png" alt="voltarpagina" width="30px" height="30px"></a>
+                <h5 class="qn mb-4">Abra o Explorador de Arquivos. (Windows + E) <br>No Explorador de Arquivos, navegue até a pasta %appdata% digitando %appdata% na barra de endereços na parte superior e pressionando "Enter".<br>Para verificar as restrições de privilégio, clique com o botão direito do mouse na pasta específica que deseja examinar e selecione "Propriedades" no menu.<br>Na janela de Propriedades da pasta, vá para a guia "Segurança". <br>Você verá a lista de usuários e grupos com permissões para a pasta. Você pode clicar em cada usuário ou grupo para ver as permissões atribuídas, como "Controle Total", "Ler" ou "Gravar". <br>Repita o processo para a pasta %appdata%\Roaming% seguindo os mesmos passos <br></h5>
+                <img src="../assets/sem-imagem.png" alt="" srcset="" class="gifquestao">
+                <form action="index15.html">
                     <div class="buttons">
                         <button type="submit" onclick="return myFunction(this.id);" class="btn" id="a">Sim</button>
                         <button type="submit" onclick="return myFunction(this.id);" class="btn" id="b">Não</button>
@@ -31,7 +28,6 @@
         </div>
 
       </div>
-
 
       <script>
         function myFunction(clickedId){
