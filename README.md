@@ -12,3 +12,9 @@ O objetivo principal deste projeto é criar uma estrutura útil de verificaçõe
 ## Contribuições
 Encorajamos todos os membros da equipe a contribuir com melhorias e atualizações para este projeto. Se você identificar novos cenários de problemas ou tiver sugestões para aprimorar o processo de solução de problemas, sinta-se à vontade para abrir uma solicitação de pull request ou me contatar diretamente.
 
+
+Utilizar class="mobile" para quando a midia for mobile
+<img src="/assets/mobile/numeronoroot.gif" alt="" srcset="" class="mobile">
+
+Utilizar class="gifquestao" para quando a midia for desktop
+<img src="/assets/mobile/numeronoroot.gif" alt="" srcset="" class="gifquestao">
