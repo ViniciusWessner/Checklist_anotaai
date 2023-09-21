@@ -14,7 +14,7 @@ Encorajamos todos os membros da equipe a contribuir com melhorias e atualizaçõ
 
 
 Utilizar class="mobile" para quando a midia for mobile
-<img src="/assets/mobile/numeronoroot.gif" alt="" srcset="" class="mobile">
+<img src="#" alt="" srcset="" class="mobile">
 
 Utilizar class="gifquestao" para quando a midia for desktop
-<img src="/assets/mobile/numeronoroot.gif" alt="" srcset="" class="gifquestao">
+<img src="#" alt="" srcset="" class="gifquestao">
