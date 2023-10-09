@@ -140,9 +140,6 @@ na tela quando escolher a trilha mobile
     border: none;
 }
 
-
-
-
 .btn:hover{
     background:linear-gradient(90deg,#96d0c6,#ceede7) ;
 }
@@ -189,7 +186,7 @@ na tela quando escolher a trilha mobile
     rgba(3, 128, 199, 100) 30%,
     rgba(9, 9, 121, 100) 70%
   );
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 
 #button:active {
