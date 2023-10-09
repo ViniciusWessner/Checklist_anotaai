@@ -73,6 +73,7 @@ body {
   opacity: 0.55;
 }
 
+
 .row{
     display: inline-block;
 }
@@ -162,11 +163,17 @@ na tela quando escolher a trilha mobile
     color: #6cdf37 !important;
 }
 
+h2{
+    color: black;
+}
+
 #title {
   margin-bottom: 30px;
   letter-spacing: 5px;
   text-align: center;
   opacity: 0.5;
+  color: black;
+  
 }
 
 #button {
