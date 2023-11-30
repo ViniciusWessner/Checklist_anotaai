@@ -13,6 +13,8 @@ O objetivo principal deste projeto é criar uma estrutura útil de verificaçõe
 Encorajamos todos os membros da equipe a contribuir com melhorias e atualizações para este projeto. Se você identificar novos cenários de problemas ou tiver sugestões para aprimorar o processo de solução de problemas, sinta-se à vontade para abrir uma solicitação de pull request ou me contatar diretamente.
 
 
+## Anotacoes
+
 Utilizar class="mobile" para quando a midia for mobile
 <img src="#" alt="" srcset="" class="mobile">
 
